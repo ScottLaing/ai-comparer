@@ -11,29 +11,29 @@ very early stages, under construction/wip, check back soon
 (install nodejs if not installed) <br/>
 install node via web download if on windows, or on mac or linux as per those environments
 
-(install yarn if not installed)
-npm install -g yarn
+(install yarn if not installed) <br/>
+**npm install -g yarn**
 
-(install app)
-yarn install
+(install app) <br/>
+**yarn install**
 
-(run app)
-node src/index.js
+(run app) <br/>
+**node src/index.js**
 
-(To view the web app in a browser)
-in your browser run:
+(To view the web app in a browser) <br/>
+in your browser run: <br/>
 **http://localhost:3000/**
 
 <h4>build docker image</h4>
 
-(To build the docker image)
-docker build -t ai-comparer .
+(To build the docker image) <br/>
+**docker build -t ai-comparer .**
 
-(To run the docker container)
+(To run the docker container) <br/>
 **docker run -dp 127.0.0.1:3000:3000 ai-comparer** 
 
 (To run the web app in a browser)
-in your browser run:
+in your browser run: <br/>
 **http://localhost:3000/**
 
 <h4>stop the running docker container</h4>
@@ -44,11 +44,11 @@ in your browser run:
 
    a) get running container id via this command (or similar)
    
-   docker ps | grep ai-comparer | awk '{print substr($0, 0, 10)}'
+   **docker ps | grep ai-comparer | awk '{print substr($0, 0, 10)}'**
 
    b) stop this container
 
-   docker stop <container_id>
+   **docker stop <container_id>**
 
 
 

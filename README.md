@@ -1,13 +1,14 @@
 <h2>ai-comparer</h2>
 
 a side project to compare ai generation results (gemini, chatgpt) in a web app
-early stages, under construction/wip, check back soon
+
+very early stages, under construction/wip, check back soon
 
 <h3>Misc Setup Steps</h3>
 
 <h4>build and run locally</h4>
 
-(install nodejs if not installed)
+(install nodejs if not installed) <br/>
 install node via web download if on windows, or on mac or linux as per those environments
 
 (install yarn if not installed)
